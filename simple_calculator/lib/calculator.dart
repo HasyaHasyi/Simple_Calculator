@@ -91,7 +91,7 @@ class _CalculatorState extends State<Calculator> {
                     ),
                     Text("You will need to pay RM${monthlyPayment} every month for ${lt.text} years to payoff the debt"),
                     SizedBox(height: 10,),
-                    Text("Total of Payments ${monthlyPayment}"),
+                    Text("Total of Payments ${monthlyPayment*12}"),
                     SizedBox(height: 10,),
                     Text("Total Interest ${ir.text}%"),
                   ],
